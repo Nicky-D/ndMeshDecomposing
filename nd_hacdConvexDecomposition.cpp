@@ -17,6 +17,7 @@
 #include <memory>
 #include <iostream>
 #include <string>
+#include <limits>
 
 #include "nd_hacdConvexDecomposition.h"
 
