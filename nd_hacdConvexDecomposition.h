@@ -22,11 +22,11 @@
 
 struct HACDDecoder;
 
+static constexpr int DEFAULT_ENCODER_ID{0};
+static constexpr int FIRST_DECODER_ID{1};
+
 class nd_hacdConvexDecomposition : public LLConvexDecomposition, public ndConvexDecompositionTracable
 {
-    static constexpr int DEFAULT_ENCODER_ID{0};
-    static  constexpr int FIRST_DECODER_ID{1};
-
 	int mNextDecoderId {FIRST_DECODER_ID };
 	int mCurrentDecoderId{FIRST_DECODER_ID};
 	std::map< int, HACDDecoder * > mDecoders;
