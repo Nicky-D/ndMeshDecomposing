@@ -27,7 +27,7 @@ file(GLOB HEADER_FILES *.h)
 add_library( ndMeshDecomposing STATIC ${SOURCE_FILES} ${HEADER_FILES})
 
 install( TARGETS ndMeshDecomposing DESTINATION ${ND_LIBDIR} )
-install( FILES LLConvexDecomposition.h RENAME llconvexdecomposition.h DESTINATION include )
+install( FILES llconvexdecomposition.h DESTINATION include )
 install( FILES ndConvexDecomposition.h DESTINATION include )
 
 set(CPACK_INCLUDE_TOPLEVEL_DIRECTORY 0)

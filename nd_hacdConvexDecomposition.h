@@ -15,7 +15,7 @@
 
 #pragma once
 
-#include "LLConvexDecomposition.h"
+#include "llconvexdecomposition.h"
 #include "nd_hacdDefines.h"
 #include <map>
 #include <vector>

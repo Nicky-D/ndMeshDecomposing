@@ -16,7 +16,7 @@
 #pragma once
 
 #include "nd_hacdStructs.h"
-#include "LLConvexDecomposition.h"
+#include "llconvexdecomposition.h"
 
 hacdPtr init( );
 DecompData decompose( VHACD::IVHACD *aHACD,

@@ -16,7 +16,7 @@
 #pragma once
 
 #include "nd_hacdDefines.h"
-#include "LLConvexDecomposition.h"
+#include "llconvexdecomposition.h"
 #include <vector>
 
 struct LLCDHull;

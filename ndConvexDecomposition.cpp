@@ -14,7 +14,7 @@
 **/
 
 #include "nd_hacdConvexDecomposition.h"
-#include "LLConvexDecomposition.h"
+#include "llconvexdecomposition.h"
 
 LLConvexDecomposition* LLConvexDecomposition::getInstance()
 {
